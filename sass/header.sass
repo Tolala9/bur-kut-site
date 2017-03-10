@@ -1,0 +1,170 @@
+$output-bourbon-deprecation-warnings: false !default;
+@import bourbon
+@import fonts.sass
+@import vars.sass
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "OpenSansRegular", sans-serif
+	overflow-x: hidden
+	color: #222
+
+
+h1, h2, h3, h4, h5, h6
+	font-family: "OpenSansRegular", sans-serif
+	font-weight: normal
+
+h1
+	font-size: em(41)
+
+h2
+	font-size: em(31)
+
+h3, h4
+	font-family: "OpenSansRegular", sans-serif
+	text-transform: uppercase
+	font-size: em(17px)
+
+h4
+	font-size: em(15px)
+a
+	outline: none !important
+
+.hidden
+	display: none
+
+.main-head
+	overflow: hidden
+	background-image: url(../img/bg_top1.jpg)
+	background-size: cover
+	background-position: top center
+	min-height: 100vh
+	overflow: hidden
+
+.mnu-line
+	padding-top: 25px
+
+.logo
+	display: block
+	width: 165px
+	img
+		width: 100%
+
+nav
+	ul
+		list-style-type: none
+		padding: 0
+		margin: 0
+	li
+		display: inline-block
+
+.main-mnu
+	text-align: center
+	font-size: em(14px)
+	>ul
+		>li
+			>a
+				display: block
+				padding: 15px 20px
+				color: #8a959a
+				+mt(.5s)
+				&:hover
+					color: #6a797f	
+			&.active
+				a
+					color: #6a797f
+					text-decoration: underline
+
+.mail-phone
+	text-align: right
+	.email-wrap
+		color: #6a797f
+		font-family: "OpenSansSemiBold", sans-serif
+		font-size: em(16px)
+		letter-spasing: 2px
+		.fa
+			font-size: em(20px)
+	.phone-wrap
+		color: #6a797f
+		font-family: "OpenSansSemiBold", sans-serif
+		font-size: em(20px)
+		letter-spasing: 2px
+		line-height: 1.9
+		.fa
+			font-size: em(22px)
+			vertical-align: middle
+
+//.social-line
+
+.social-wrap
+	color: #6a797f
+	font-family: "Exo2Bold", sans-serif
+	font-size: em(25px)
+	text-align: right
+	letter-spacing: 5px
+	a
+		color: #6a797f
+		+mt(.2s)
+		&:hover
+			color: $accent
+
+.header-content
+	padding: 2% 0
+	text-align: center
+	h1
+		position: relative
+		left: -3%
+		color: #687479
+		margin: 5% 0 3%
+	h2
+		position: relative
+		left: -3%
+		display: inline-block
+		color: $text
+		font-family: "OpenSansLight", sans-serif
+		margin: 0
+		letter-spacing: -1.5px
+		line-height: 1.2
+	.dif-title
+		position: relative
+		left: -3%
+		font-size: em(31px)
+		color: #687479
+		margin-top: 3%
+	.button
+		margin-top: 40px
+		position: relative
+		left: -3.5%
+.button
+	display: inline-block
+	border: none
+	background-color: $btn
+	color: #3f2828
+	font-family: "OpenSansSemiBold", sans-serif
+	font-size: em(13px)
+	letter-spacing: 0.7px
+	text-transform: uppercase
+	padding: 12px 7px
+	border-radius: 1px
+	box-shadow: 0 4px 0 #a6ad36
+	+mt(.25s)
+	&:hover, &:focus
+		color: #fff
+		text-decoration: none
+	&:hover
+		background-color: #e2d760
+	&:active
+		background-color: #a6ad36
+		transform: translateY(3px)
+
+.responsive-img
+	max-width: 100%
+	
+
+.top-img-wrap	
+	padding: 10% 0 0 0
+	position: relative
+	left: 50px
