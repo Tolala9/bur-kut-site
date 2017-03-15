@@ -9,6 +9,10 @@
 		padding-top: 15% 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
+	.mnu-line
+		.logo
+			position: relative
+			left: 10px
 	.mail-phone
 		padding-right: 50px
 		.phone-wrap-first
@@ -18,15 +22,25 @@
 		position: relative
 		right: 30px
 		top: 15px
+	.about-us
+		h2
+			line-height: 40px
+	.s-gray
+		.seccond-wrap
+			margin-top: 122px
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	.ishome h1
+	.mnu-line
+		.logo
+			position: relative
+			left: 25px
+	.header-content h1
 		font-size: 32px
 		text-align: left
 		position: relative
 		left: 3%
-	.ishome h2
+	.header-content h2
 		font-size: 22px
 		text-align: left
 		position: relative
@@ -45,6 +59,18 @@
 		position: relative
 		right: 30px
 
+	.about-us
+		h2
+			line-height: 30px
+			text-align: center
+			font-size: 25px
+			left: 0
+			letter-spacing: 0px
+	.s-profile
+		.seccond-wrap
+				margin-top: 120px
+		.first-wrap
+			margin-top: 60px
 
 
 /* Small Devices, Tablets */
@@ -70,30 +96,38 @@
 		-o-animation: none !important
 		-ms-animation: none !important
 		animation: none !important
-		.ishome h1
+	.mnu-line
+		.logo
+			position: relative
+			left: 5px
+	.header-content h1
 		font-size: 32px
-		text-align: left
+		text-align: center
 		position: relative
-		left: 3%
-		color: #342e2e
-	.ishome h2
+		left: 0%
+		color: #d1c6c6
+		text-shadow: 1px 1px 1px grey, 0 0 .1em grey
+	.header-content h2
+		color: #d1c6c6
 		font-size: 22px
-		text-align: left
+		text-align: center
 		position: relative
-		left: 3%
+		left: 0%
 		display: block
 		font-family: "OpenSansSemiBold", sans-serif
-		text-decoration: underline
+		text-decoration: none
 		letter-spacing: 0px
 		line-height: 35px
+		text-shadow: 1px 1px 1px grey, 0 0 .2em grey
 	.header-content
 		padding-top: 60px
 		.dif-title
-			text-align: left
-			color: #342e2e
+			text-align: center
+			color: #d1c6c6
 			position: relative
-			left: 3%
+			left: 0%
 			display: block
+			text-shadow: 1px 1px 1px grey, 0 0 .9em grey
 	.mnu-line
 		text-align: center
 		.logo
@@ -103,7 +137,7 @@
 			padding: 0
 			margin-top: 15px
 	.toggle-mnu
-		top: -60px
+		top: -160px
 	.hidden-mnu
 		font-size: 16px
 		text-transform: uppercase
@@ -112,21 +146,45 @@
 		position: relative
 		right: -2%
 		a
-			color: #585152
+			color: #d1c6c6
+			text-shadow: 1px 1px 1px grey, 0 0 .9em grey
 	.mail-phone
 		.email-wrap
 			font-size: 16px
 			color: #585152
 		.phone-wrap-first, .phone-wrap-second
 			font-size: 17px
-			color: #342e2e
+			// color: #342e2e
 			position: relative
 			left: 5px
+			color: #4d6066
+			text-shadow: 1px 1px 1px grey, 0 0 3em grey
 		.phone-wrap-first
 			line-height: 30px
 
 	.s-adv-item 
 		text-align: center
+
+	.about-us
+		min-height: 450px
+		h2
+			line-height: 40px
+			text-align: center
+			font-size: 25px
+			left: 0
+			letter-spacing: 0px
+			padding-top: 10px
+			font-family: "OpenSansLight", sans-serif
+			text-decoration: none
+
+	.s-profile
+		margin
+		.seccond-wrap
+			min-height: 320px
+			margin-top: 10px
+		.first-wrap
+			min-height: 250px
+			margin-top: 0px
 
 
 /* Extra Small Devices, Phones */
@@ -137,16 +195,31 @@
 		position: relative
 		right: -20px
 		a
-			color: #342e2e
-	.ishome h2
-		line-height: 35px
-		text-decoration: underline
+			color: #d1c6c6
+			text-shadow: 1px 1px 1px grey, 0 0 3em grey
+	.header-content h2
+		line-height: 30px
+		text-decoration: none
 
 	.s-adv-item
 		span
 			font-size: 30px
 		h3
 			font-size: 20px
+	.about-us
+		min-height: 450px
+		h2
+			line-height: 35px
+			text-align: center
+			font-size: 25px
+			left: 0
+			letter-spacing: 0px
+			padding-top: 20px
+			padding-bottom: 15px
+			font-family: "OpenSansLight", sans-serif
+			text-decoration: none
+		p
+			font-size: 15px
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
 	/**/
