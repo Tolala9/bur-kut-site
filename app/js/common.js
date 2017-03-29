@@ -1,4 +1,4 @@
-$(function() {
+$(function() { 
 
 	// $(".gallery-tizer-wrap")
 	// 	.attr("href", $(".gallery-images a").attr("href"))
@@ -98,6 +98,8 @@ $(function() {
 	// 	$(".form-callback [name=admin-data]").val(dataForm);
 	// });
 
+// Magnific PopUp
+
 $(".mfp-gallery-first").magnificPopup({
 	mainClass: 'mfp-zoom-in',
 	type: 'image',
@@ -160,38 +162,46 @@ $(".mfp-gallery-seccond").magnificPopup({
 	}
 });
 
+// Mouse icon on header
+
 	$(".mouse-icon").click(function() {
 		$("html, body").animate({
 			scrollTop : $(".s-adv").offset().top
 		}, 800);
 	});
 
-	$(".s-adv").waypoint(function() {
+
+	//Bluring numbers & animate in 1 sections
+
+$(".s-adv").waypoint(function() {
 		
 		$({blurRadius: 5}).animate({blurRadius: 0}, {
-			duration: 1200,
-			easing: 'swing',
-			step: function() {
-				$(".s-adv-item h3 span").css({
-					"-webkit-filter": "blur("+this.blurRadius+"px)",
-					"filter": "blur("+this.blurRadius+"px)"
-				});
-			}
+	duration: 1400,
+	easing: 'swing',
+	step: function() {
+		$(".s-adv-item h3 span").css({
+			"-webkit-filter": "blur("+this.blurRadius+"px)",
+			"filter": "blur("+this.blurRadius+"px)"
 		});
-		var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(' ');
-		$(".s-adv-item h3 span").each(function() {
-			var tcount = $(this).data("count");
-			$(this).animateNumber({ number: tcount,
-				easing: 'easeInQuad',
-				"font-size": "1.8125em",
-				numberStep: comma_separator_number_step},
-				1200);
-		});
-		this.destroy();
-
+	}
+});
+var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(' ');
+$(".s-adv-item h3 span").each(function() {
+	var tcount = $(this).data("count");
+	$(this).animateNumber({ number: tcount,
+		easing: 'easeInQuad',
+		"font-size": "34px",
+		numberStep: comma_separator_number_step},
+		1400);
+});
+	this.destroy();
 	}, {
 		offset: '70%'
 	});
+
+
+
+// Togle menu icon on header
 
 	$(".toggle-mnu").click(function() {
 		$(this).toggleClass("on");
@@ -239,6 +249,8 @@ $(".mfp-gallery-seccond").magnificPopup({
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
+
+
 	//Replace all SVG images with inline SVG
 	$('img.img-svg').each(function(){
 		var $img = $(this);
@@ -268,6 +280,8 @@ $(".mfp-gallery-seccond").magnificPopup({
 			}, 'xml');
 
 	});
+
+// Scroll Top
 
 	$(window).scroll(function() {
 		if($(this).scrollTop() > $(this).height()) {

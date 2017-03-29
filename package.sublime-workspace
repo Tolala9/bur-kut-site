@@ -1,0 +1,511 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"p\tpadding"
+			],
+			[
+				"l",
+				"lh\tline-height"
+			],
+			[
+				"w",
+				"whs\twhite-space"
+			],
+			[
+				"e",
+				"equalHeights"
+			],
+			[
+				"o",
+				"ov\toverflow"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"d",
+				"d:b\tdisplay:block"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"po",
+				"pos:r\tposition:relative"
+			],
+			[
+				"a",
+				"alt"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"tt",
+				"tt:l\ttext-transform:lowercase"
+			],
+			[
+				"ls",
+				"lts\tletter-spacing"
+			],
+			[
+				"ta",
+				"ta:r\ttext-align:right"
+			],
+			[
+				"m",
+				"m\tmargin"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"ma",
+				"magnificPopup"
+			],
+			[
+				"v",
+				"va\tvertical-align"
+			],
+			[
+				"t",
+				"t:a\ttop:auto"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"i",
+				"img/"
+			],
+			[
+				"cu",
+				"cur:p\tcursor:pointer"
+			],
+			[
+				"f",
+				"fl\tfloat"
+			],
+			[
+				"td",
+				"td:n\ttext-decoration:none"
+			],
+			[
+				"mh",
+				"mih\tmin-height"
+			],
+			[
+				"br",
+				"bdrz\tborder-radius"
+			],
+			[
+				"bb",
+				"bdb\tborder-bottom"
+			],
+			[
+				"lst",
+				"list\tlist-style-type"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"r",
+				"require"
+			],
+			[
+				"va",
+				"var"
+			],
+			[
+				"gul",
+				"gulp"
+			],
+			[
+				"b",
+				"browserSync"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ba",
+				"bga\tbackground-attachment"
+			],
+			[
+				"bg",
+				"bgi\tbackground-image"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 182.0,
+		"last_filter": "gu",
+		"selected_items":
+		[
+			[
+				"gu",
+				"Gulp"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"gi",
+				"git: push"
+			],
+			[
+				"git",
+				"git: push"
+			],
+			[
+				"o",
+				"github: open issues"
+			],
+			[
+				"sta",
+				"git: status"
+			],
+			[
+				"bran",
+				"git: branch"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"ma",
+				"Material Theme: Configuration"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:i",
+				"Package Control: Install Package"
+			],
+			[
+				"co",
+				"Color Picker"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Color Picker: Insert Color"
+			],
+			[
+				"color",
+				"Color Picker: Insert Color"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"sy",
+				"Set Syntax: CSS"
+			],
+			[
+				"Package Control: T",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Web_work/_bur-kut site/ready_bur_html/sass/header.sass",
+		"/D/Web_work/_bur-kut site/ready_bur_html/sass/_vars.sass",
+		"/D/Web_work/_my site/my ready_html/sass/_vars.sass",
+		"/D/Web_work/_my site/my ready_html/sass/header.sass",
+		"/D/Web_work/_my site/my ready_html/sass/main.sass",
+		"/D/Web_work/_my site/my ready_html/app/index.html",
+		"/D/Web_work/_my site/my ready_html/sass/_media.sass",
+		"/D/Web_work/_my site/my ready_html/app/js/common.js",
+		"/D/Web_work/_my site/my ready_html/app/js/libs.js",
+		"/D/Web_work/_bur-kut site/ready_bur_html/app/index.html",
+		"/D/Web_work/_my site/_optimized_gulp_sass/app/libs/animate_number/jquery.animateNumber.min.js",
+		"/D/Web_work/_my site/_optimized_gulp_sass/app/js/libs.js",
+		"/D/Web_work/_my site/ready_html/app/js/common.js",
+		"/D/Web_work/_bur-kut site/ready_bur_html/sass/_fonts.sass",
+		"/D/Web_work/_bur-kut site/ready_bur_html/sass/main.sass",
+		"/D/Web_work/_bur-kut site/ready_bur_html/app/js/common.js",
+		"/D/Web_work/_bur-kut site/ready_bur_html/sass/_media.sass",
+		"/D/Web_work/_bur-kut site/ready_bur_html/app/libs/Magnific-Popup/magnific-popup.sass",
+		"/D/Web_work/_bur-kut site/ready_bur_html/app/libs/Magnific-Popup/magnific-popup.css",
+		"/D/Web_work/_bur-kut site/ready_bur_html/app/libs/Magnific-Popup/jquery.magnific-popup.min.js",
+		"/D/Web_work/_bur-kut site/ready_bur_html/app/js/libs.js",
+		"/D/Web_work/_my site/my ready_html/sass/_fonts.sass",
+		"/D/Web_work/_my site/ready_html/sass/header.sass",
+		"/D/Web_work/_my site/ready_html/sass/_fonts.sass",
+		"/D/Web_work/_my site/my ready_html/app/libs/font-awesome/css/font-awesome.sass",
+		"/D/Web_work/_bur-kut site/ready_bur_html/app/libs/font-awesome/css/font-awesome.sass",
+		"/D/Web_work/_bur-kut site/ready_bur_html/app/libs/font-awesome/css/font-awesome.min.css",
+		"/D/Web_practice/_web_pattern/my ready_html/sass/header.sass",
+		"/D/Web_practice/_web_pattern/my ready_html/sass/_vars.sass",
+		"/D/Web_work/_web_pattern/my ready_html/gulpfile.js",
+		"/D/Web_work/_web_pattern/my ready_html/app/js/libs.js",
+		"/D/Web_work/_web_pattern/my ready_html/app/js/common.js",
+		"/D/Web_work/_web_pattern/my ready_html/app/index.html",
+		"/D/Web_work/_web_pattern/my ready_html/sass/main.sass",
+		"/D/Web_work/_web_pattern/my ready_html/sass/header.sass",
+		"/D/Web_work/_web_pattern/my ready_html/sass/_vars.sass",
+		"/D/Web_work/_web_pattern/my ready_html/sass/_media.sass",
+		"/D/Web_work/_web_pattern/my ready_html/sass/_fonts.sass",
+		"/D/Web_work/_web_pattern/my ready_html/package.json",
+		"/D/Web_work/_my site/my ready_html/gulpfile.js",
+		"/D/Web_work/_my site/my ready_html/package.json",
+		"/D/Web_work/_bur-kut site/ready_bur_html/package.json",
+		"/D/Web_work/_bur-kut site/ready_bur_html/gulpfile.js",
+		"/D/Web_work/_bur-kut site/ready_bur_html/app/_header.min.css",
+		"/D/Web_work/_my site/my ready_html/app/libs/Magnific-Popup/jquery.magnific-popup.min.js",
+		"/D/Web_work/_my site/my ready_html/app/libs/Magnific-Popup/magnific-popup.css",
+		"/D/Web_work/_my site/my ready_html/app/libs/Magnific-Popup/magnific-popup.sass",
+		"/D/Web_work/_my site/ready_html/app/js/libs.js",
+		"/C/Users/Anatolii/AppData/Roaming/Sublime Text 3/Packages/User/GitSavvy.sublime-settings",
+		"/C/Users/Anatolii/AppData/Roaming/Sublime Text 3/Packages/GitSavvy/GitSavvy.sublime-settings",
+		"/D/Web_work/_my site/ready_html/app/index.html",
+		"/D/Web_work/_my site/my ready_html/app/_header.min.css",
+		"/D/Web_work/_my site/my ready_html/app/css/header.min.css",
+		"/D/Web_practice/gulp_practice/app/sass/_part.sass",
+		"/D/Web_practice/gulp_practice/app/js/common.js",
+		"/D/Web_practice/gulp_practice/package.json",
+		"/D/Web_practice/gulp_practice/.bowerrc",
+		"/D/Web_practice/gulp_practice/app/sass/main.sass",
+		"/D/Web_practice/gulp_practice/app/css/main.css",
+		"/D/Web_practice/gulp_practice/app/index.html",
+		"/D/Web_practice/gulp_practice/app/sass/libs.sass",
+		"/D/Web_practice/gulp_practice/gulpfile.js",
+		"/D/Web_practice/gulp_practice/app/css/libs.css",
+		"/D/Web_practice/gulp_practice/.bowerrs",
+		"/D/Web_practice/sass_practice/sass/mono.sass",
+		"/D/Web_practice/sass_practice/sass/1.sass",
+		"/D/Web_practice/sass_practice/sass/scroller.sass",
+		"/D/Web_practice/sass_practice/sass/footer.sass",
+		"/D/Web_practice/sass_practice/sass/main.sass",
+		"/D/Web_practice/sass_practice/css/main.css",
+		"/D/Web_practice/sass_practice/sass/header.sass",
+		"/D/Web_practice/sass_practice/css/1.css",
+		"/D/Web_practice/sass_practice/css/mono.css",
+		"/D/Web_practice/sass_practice/sass/2.sass",
+		"/D/Web_practice/sass_practice/sass/33.sass",
+		"/D/Web_practice/sass_practice/sass/mmm.sass",
+		"/D/Web_practice/sass_practice/gulpfile.js",
+		"/D/Web_practice/sass_practice/sass-beginners-master/sass/6.sass",
+		"/D/Web_practice/sass_practice/package.json",
+		"/D/Web_practice/sass_practice/sass-beginners-master/sass/1.1.sass",
+		"/D/Web_practice/sass_practice/sass-beginners-master/css/main.css",
+		"/D/Web_practice/sass_practice/sass-beginners-master/sass/main.sass",
+		"/D/Web_practice/sass_practice/css/main1.css",
+		"/D/Web_practice/sass_practice/sass/main1.sass",
+		"/D/Web_practice/sass_practice/sass-beginners-master/gulpfile.js",
+		"/D/Web_practice/_sass_practice/sass-beginners-master/gulpfile.js",
+		"/D/Web_practice/_sass_practice/sass-beginners-master/package.json",
+		"/D/Мк-буд/сайт/html5up-hyperspace/assets/css/main.css",
+		"/D/Web_work/_my site/_optimized_gulp_sass/app/index.html",
+		"/C/Users/Anatolii/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/Anatolii/Desktop/dddd.html",
+		"/D/Web_work/_my site/ready_html/gulpfile.js",
+		"/D/Web_work/_my site/ready_html/package.json",
+		"/C/Users/Anatolii/AppData/Local/Temp/Rar$DIa0.347/gulpfile.js",
+		"/D/Web_work/_my site/_optimized_gulp_sass/package.json",
+		"/C/Users/Anatolii/AppData/Roaming/Sublime Text 3/Packages/Goto-CSS-Declaration/Default (Windows).sublime-keymap",
+		"/C/Users/Anatolii/Desktop/style.css",
+		"/C/Users/Anatolii/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Anatolii/AppData/Roaming/Sublime Text 3/Packages/Gist/Default (Windows).sublime-keymap",
+		"/C/Users/Anatolii/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/D/Web_work/_my site/ready_html/sass/_media.sass",
+		"/C/Users/Anatolii/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/D/Web site #1/my site/ready_html/sass/header.sass",
+		"/D/Web site #1/my site/My ready_html/sass/_vars.sass",
+		"/D/Web site #1/my site/My ready_html/app/index.html",
+		"/D/Web site #1/my site/My ready_html/sass/header.sass",
+		"/D/Web site #1/my site/My ready_html/sass/_fonts.sass",
+		"/D/Web site #1/my site/ready_html/sass/main.sass",
+		"/D/Web site #1/my site/My ready_html/app/_header.min.css",
+		"/D/Web site #1/my site/ready_html/sass/_vars.sass",
+		"/D/Web site #1/my site/_optimized_gulp_sass/sass/_vars.sass",
+		"/D/Мк-буд/сайт/html5up-hyperspace/generic.html",
+		"/D/Мк-буд/сайт/html5up-hyperspace/index.html",
+		"/C/Users/Anatolii/Desktop/www.html"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"10px",
+			"\t\t\t\n",
+			"OpenSansRegular",
+			"OpenSansLight",
+			"Exo2Bold",
+			".header-content",
+			"check",
+			"\n\t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
