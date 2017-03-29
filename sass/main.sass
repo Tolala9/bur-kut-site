@@ -90,6 +90,7 @@ body textarea:required:valid
 		text-align: center
 		margin: 0
 		color: $text
+		line-height: 1.6
 	p
 		text-align: justify
 		padding: 9px 17px 
@@ -152,9 +153,58 @@ body textarea:required:valid
 	100%
 		transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg)
 
+.item-vertical
+	margin-top: 70px
+	text-align: center
+	svg, img
+		width: 110px
+		height: auto
+	path
+		fill: #7f7576!important
+		+mt(0.5s)
+	&:hover
+		path
+			fill: $accent!important
+		h3
+			&::before	
+				background-color: $accent
+				width: 50%
+				margin-left: -25%
+	h3
+		font-size: 19px
+		margin-top: 30px
+		position: relative
+		padding-bottom: 20px
+		&::before
+			content: ""
+			position: absolute
+			bottom: 0
+			height: 1px
+			width: 40%
+			left: 50%
+			margin-left: -20%
+			background-color: $text
+			+mt(.5s)
+	p
+		color: $text
+		text-align: justify
+		padding: 10px 10px
+		
 
+.middle-item
+	h3
+		margin-top: 20px
+		padding-bottom: 10px
+	.middle-svg
+		width: 190px
+		margin-top: -30px
+.right-item
+	h3
+		margin-top: 39px
+		padding-bottom: 15px
 
-
+.s-direct
+	padding-bottom: 30px
 
 //ALWAYS END
 @import media

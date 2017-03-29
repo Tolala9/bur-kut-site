@@ -252,6 +252,8 @@ $(".s-adv-item h3 span").each(function() {
 
 
 	//Replace all SVG images with inline SVG
+
+
 	$('img.img-svg').each(function(){
 		var $img = $(this);
 		var imgClass = $img.attr('class');
