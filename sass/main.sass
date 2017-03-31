@@ -24,7 +24,41 @@ body input:required:valid,
 body textarea:required:valid
 	color: #666
 
+<<<<<<< HEAD
 
+=======
+.portfolio-item
+		position: relative
+		display: block
+		overflow: hidden
+		border: 1px solid $accent
+		img
+			+mt(.5s)
+		&:hover
+			.portfolio-item-content
+				opacity: 1
+				transform: scale(0.95)
+			img
+				transform: scale(1.1)
+		&-content
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+			background-color: rgba(255,255,255,.85)
+			text-align: center
+			padding-top: 20%
+			opacity: 0
+			+mt(.5s)
+			transform: scale(1.1)
+			i
+				color: $accent
+				font-size: 33px
+			h3
+				font-size: 18px
+				color: $light_text
+>>>>>>> 1413d7544159b34e7543771f78afefcb63844d0a
 
 
 //Custom Styles Here
@@ -41,7 +75,11 @@ body textarea:required:valid
 	img
 		+mt(.5s)
 	&:hover
+<<<<<<< HEAD
 		.steps-item-content
+=======
+		.portfolio-item-content
+>>>>>>> 1413d7544159b34e7543771f78afefcb63844d0a
 			opacity: 1
 			transform: scale(0.95)
 			text-decoration: none
@@ -50,6 +88,7 @@ body textarea:required:valid
 				font-size: 33px
 				color: $accent
 			
+<<<<<<< HEAD
 .steps-item
 		overflow: hidden
 		border: 1px solid $accent
@@ -71,6 +110,8 @@ body textarea:required:valid
 			h3
 				font-size: 18px
 				color: $light_text
+=======
+>>>>>>> 1413d7544159b34e7543771f78afefcb63844d0a
 .table
 	z-index: 2
 	position: relative
