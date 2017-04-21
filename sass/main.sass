@@ -1,5 +1,5 @@
 @import bourbon  
-@import vars.sass
+@import vars.sass 
 
 *::-webkit-input-placeholder
 	color: #666
@@ -28,6 +28,8 @@ body textarea:required:valid
 
 
 //Custom Styles Here
+
+// Section_2 about us
 .s-gray
 	background-color: #f6f4f4
 .work-steps-img-wrap
@@ -170,6 +172,9 @@ body textarea:required:valid
 		transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
 	100%
 		transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg)
+//Magnific PopUp customize end
+
+// Section_3 direct
 
 .item-vertical
 	margin-top: 70px
@@ -224,7 +229,7 @@ body textarea:required:valid
 .s-direct
 	padding-bottom: 30px
 
-// Section_4
+// Section_4 works
 
 .s-works
 	padding-bottom: 15px
@@ -349,6 +354,61 @@ body textarea:required:valid
 		background-color: $accent
 		margin: 0
 		margin-top: 5px
+
+// *
+// 	transition: filter . 25s ease
+// .mfp-wrap ~ *
+// 	filter: blur(5px)
+
+/* Section_4 Callback*/
+
+.rounded-img-wrap
+	border-radius: 10em
+	border: #d5d1d1 3px solid
+	overflow: hidden
+	width: 190px
+	height: 190px
+	text-align: center
+	margin: auto
+	margin-top: 40px
+	+mt(.5s)
+	img
+		max-width: 100%
+		transform: scale(1.14)
+		
+		// text-align: center
+
+.item-vertical-2
+	text-align: center
+	&:hover
+		.rounded-img-wrap
+			transform: scale(1.05)
+			border-color: $accent
+		.iv-phone
+			color: $accent
+
+	h3
+		font-family: "Exo2Bold", sans-serif
+		font-size: 19px
+		color: $text
+		margin-top: 40px
+		margin-bottom: 0px
+	p
+		font-size: 15px
+		color: $light_text
+		margin-top: 10px
+
+.iv-phone
+	color: $light_text
+	font-family: "Exo2Bold", sans-serif
+	font-size: 20px
+	+mt(.5s)
+	i
+		font-size: 25px
+		margin-right: 3px
+
+
+
 
 //ALWAYS END
 @import media
