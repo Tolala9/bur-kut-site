@@ -3,7 +3,7 @@
 
 *::-webkit-input-placeholder
 	color: #666
-	opacity: 1
+	opacity: 1 
 
 *:-moz-placeholder
 	color: #666
@@ -409,6 +409,82 @@ body textarea:required:valid
 		margin-right: 3px
 
 /* Section_5 Contacts */
+/* Contacts area */
+.contacts-texts 
+	margin-top: 45px
+	text-align: center
+	background-color: $bg_durk
+	color: #fff
+	padding-top: 5px
+	padding-bottom: 10px
+	h2
+		margin-top: 20px
+		font-size: 24px
+		line-height: 25px
+		padding-bottom: 15px
+		position: relative
+		&::after
+			content: ""
+			position: absolute
+			bottom: 0px
+			height: 1px
+			width: 40%
+			left: 50%
+			margin-left: -20%
+			background-color: #fff
+			+mt(.5s)
+
+	.phone-fa, .fax-fa
+		font-family: "Exo2Bold", sans-serif
+		font-size: 18px
+		margin-bottom: 25px
+		margin-left: 90px
+		margin-top: 30px
+		text-align: left
+		i
+			position: absolute
+			font-size: 30px
+			left: 80px
+			+mt(.5s)
+
+	.mail-fa
+		font-family: "OpenSansSemiBold", sans-serif
+		font-size: 18px
+		margin-bottom: 30px
+		margin-left: 63px
+		margin-top: 30px
+		text-align: left
+		letter-spacing: 1px
+		i
+			font-size: 22px
+			padding-top: 3px
+			padding-right: 7px
+			letter-spacing: 0px
+			+mt(.5s)
+	.fax-fa
+		margin-left: 97px
+		i
+			font-size: 22px
+			padding-top: 3px
+	.phone-wraper
+		h2
+			margin-top: 15px
+	.phone-wraper, .mail-wraper, .fax-wraper
+		&:hover
+			i
+				color: $accent
+			h2
+				&::after
+					background-color: $accent
+	.mail-wraper
+		h2
+			margin-top: 40px		
+
+/* Form area */		
+
+
+
+
 
 
 
