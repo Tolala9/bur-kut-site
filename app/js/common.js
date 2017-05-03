@@ -208,4 +208,11 @@ $(".s-adv-item h3 span").each(function() {
 		}
 	});
 
+	//toggle mnu footer
+	$(".main-foot .toggle-mnu").click(function(){
+		$("html, body").animate({scrollTop: $(document).height() + 300}, "slow");
+		return false;
+	});
+
+
 });
