@@ -1,6 +1,10 @@
 @import bourbon  
 @import vars.sass 
 
+//Load Libs SASS
+@import app/libs/animate/animate.sass
+@import app/libs/font-awesome/css/font-awesome.sass
+@import app/libs/Magnific-Popup/magnific-popup.sass
 *::-webkit-input-placeholder
 	color: #666
 	opacity: 1 
@@ -483,7 +487,38 @@ body textarea:required:valid
 /* Form area */		
 
 
+/* Footer*/
+.main-foot
+	background-color: $bg_durk
+	.mnu-line  
+		padding: 40px 0 30px
+	.main-mnu
+		margin-top: 40px
+		>ul
+			>li
+				a
+						color: #ded8d8
+				&.active, &:hover, &:focus
+					a
+						color: #fff
+						border-bottom: solid 1px #fff
 
+	.email-wrap, .phone-wrap-first, .phone-wrap-second
+		color:#fff
+		letter-spacing: 1px
+
+	.email-wrap
+		margin: 0px 0px 15px
+	.social-wrap
+		margin-top: 10px
+		a
+			color: #fff
+			+mt(.2s)
+			&:hover
+				color: $accent
+		
+
+				
 
 
 
@@ -491,7 +526,4 @@ body textarea:required:valid
 //ALWAYS END
 @import media
 
-//Load Libs SASS
-@import app/libs/animate/animate.sass
-@import app/libs/font-awesome/css/font-awesome.sass
-@import app/libs/Magnific-Popup/magnific-popup.sass
+
