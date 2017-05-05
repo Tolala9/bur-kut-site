@@ -114,7 +114,8 @@
 					<h2>ГОРИЗОНТАЛЬНО-НАПРАВЛЕНЕ БУРІННЯ</h2>
 					<div class="dif-title">по всій Україні</div>
 
-					<a href="#" class="button">
+					<a href="#callback" class="button" data-form="Замовити зворотній дзвінок"
+					data-text="Замовити зворотній дзвінок">
 						ЗАМОВИТИ ЗВОРОТНІЙ ДЗВІНОК
 					</a>
 					
@@ -1020,16 +1021,43 @@
 				</div>
 			</div> 
 
-		</div>
+		</div> 
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="copyright">&#x24B8; 2017 BUR-KUT</div>
 			</div>
 		</div>
 
-	</footer>
+	</footer> 
 
-	<div class="hidden"></div>
+<!-- Hidden form -->
+	<div class="hidden">
+		<form id="callback" class="contact-form form-callback">
+
+						<div class="success"><p>Дякуємо за заявку!</p></div>
+						<input type="hidden" name="admin-data">
+
+						<div class="contact-form-head">
+							<h3>Залишити заявку</h3>
+							<p>Залиште заявку і ми зв’яжемось із вами на протязі 20 хвилин.</p>
+						</div>
+
+						<label>
+							<span>Ваше ім'я:</span>
+							<input type="text" name="Ім'я" placeholder="Ваше ім'я...">
+						</label>
+
+						<label>
+							<span>Ваш телефон:</span>
+							<input type="text" name="Ваш телефон" placeholder="Ваш телефон..." required>
+						</label>
+
+						<div class="text-center">
+						<button class="button button-small button-form">Відправити</button>
+						</div>
+
+					</form>
+	</div>
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>

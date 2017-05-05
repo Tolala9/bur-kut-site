@@ -334,16 +334,53 @@ body textarea:required:valid
 //Feature Where we need withoud wrap text		
 .wsnw
 	white-space: nowrap
-	
+
+.form-callback //hidden form
+	+mt(.5s)
+	max-width: 320px
+	margin: auto
+	padding-left: 20px
+	padding-right: 20px
+	box-shadow: rgba(0,0,0,.4s) 0 0 20px
+	position: relative
+	overflow: hidden
+	label
+		margin-bottom: 25px
+	.button-form
+		margin-top: 10px
+.success
+	display: flex
+	background-color: $bg_durk
+	position: absolute
+	z-index: 1
+	left: 0
+	width: 100%
+	height: 100%
+	margin: auto
+	top: -100%
+	opacity: 0
+	+mt(.5s)
+	p
+		margin: auto
+		display: flex
+		font-size: 22px
+	&.active
+		top: 0px
+		opacity: 1
+
+
 /* PopUp plagin for works */
 .my-mfp-zoom-in
-	.portfolio-popup
+	.portfolio-popup,
+	.form-callback //hidden form
 		opacity: 0
 		transform: scale(0.8)
-	&.mfp-ready .portfolio-popup
+	&.mfp-ready .portfolio-popup,
+	&.mfp-ready .form-callback //hidden form
 		opacity: 1   
 		transform: scale(1)
-	&.mfp-removing .portfolio-popup    
+	&.mfp-removing .portfolio-popup,    
+	&.mfp-removing .form-callback  //hidden form   
 		transform: scale(0.8)
 		opacity: 0
 	&.mfp-bg
@@ -489,7 +526,7 @@ body textarea:required:valid
 
 /* Footer*/
 .main-foot
-	background-color: $bg_durk
+	background-color: $bg_durk 
 	.mnu-line  
 		padding: 40px 0 8px
 	.main-mnu

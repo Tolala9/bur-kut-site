@@ -1,4 +1,4 @@
-$(function() { 
+$(function() {  
 
 
 // Pop Up window in works section
@@ -160,6 +160,11 @@ $(".s-adv-item h3 span").each(function() {
 		return false;
 	});
 
+
+
+
+
+/*Append for skroll button*/
 	$("body").append('<div class="top"><i class="fa fa-angle-double-up">');
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
@@ -212,6 +217,21 @@ $(".s-adv-item h3 span").each(function() {
 	$(".main-foot .toggle-mnu").click(function(){
 		$("html, body").animate({scrollTop: $(document).height() + 300}, "slow");
 		return false;
+	});
+
+
+/*Hidden forms*/
+	$(".portfolio-item, a[href='#callback']").magnificPopup({
+		mainClass: 'my-mfp-zoom-in',
+		removalDelay: 300,
+		type: 'inline',
+	});
+
+	$("a[href='#callback']").click(function(){
+		var dataForm = $(this).data("form");
+		var dataText = $(this).data("text");
+		$(".form-callback h3").text(dataText);
+		$(".form-callback [name=admin-data]").val(dataForm);
 	});
 
 
