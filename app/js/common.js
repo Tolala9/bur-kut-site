@@ -202,8 +202,12 @@ $(".s-adv-item h3 span").each(function() {
 			}, 'xml');
 
 	});
-
 // Scroll Top
+	$("body").on("click", ".top", function() {
+		$("html, body").animate({scrollTop: 0}, "slow");
+	});
+	
+//Disapear scroll button
 
 	$(window).scroll(function() {
 		if($(this).scrollTop() > $(this).height()) {

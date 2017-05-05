@@ -588,7 +588,30 @@ body textarea:required:valid
 		color: #fff
 		text-align: center
 		margin: none
-						
+
+/* Scroll button */			
+.top
+	position: fixed
+	bottom: 80px
+	left: -120px
+	width: 50px
+	height: 50px
+	background-color: lighten($accent, 10%)
+	border-radius: 10px
+	cursor: pointer
+	text-align: center
+	opacity: .7
+	color: $text
+	z-index: 5
+	+mt(.25s)
+	.fa
+		font-size: 36px
+		margin-top: 7px
+	&:hover
+		opacity: 1
+		background-color: $accent
+	&.active
+		left: 20px
 				
 
 
