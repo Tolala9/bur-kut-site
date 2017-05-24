@@ -6,11 +6,20 @@
     "browser-sync": "^2.11.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-build": "^0.5.3",
     "gulp-clean-css": "^3.0.3",
     "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.0.1",
-    "node-bourbon": "^4.2.3"
+    "gulp-util": "^3.0.8",
+    "node-bourbon": "^4.2.3",
+    "vinyl-ftp": "^0.6.0"
+  },
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp-cache": "^0.4.6",
+    "gulp-notify": "^3.0.0"
   }
 }
