@@ -70,6 +70,7 @@ gulp.task('build', ['removedist', 'imagemin', 'styles', 'scripts'], function() {
 	var buildFiles = gulp.src([
 		'app/*.html',
 		'app/.htaccess',
+		'app/mail.php',
 		]).pipe(gulp.dest('dist'));
 
 	var buildCss = gulp.src([
@@ -93,9 +94,9 @@ gulp.task('build', ['removedist', 'imagemin', 'styles', 'scripts'], function() {
 gulp.task('deploy', function() {
 
 	var conn = ftp.create({
-		host:      'hostname.com',
-		user:      'username',
-		password:  'userpassword',
+		host:      '194.28.174.228',
+		user:      'burkutco',
+		password:  'tolala333',
 		parallel:  10,
 		log: gutil.log
 	});
@@ -105,7 +106,7 @@ gulp.task('deploy', function() {
 	'dist/.htaccess',
 	];
 	return gulp.src(globs, {buffer: false})
-	.pipe(conn.dest('/path/to/folder/on/server'));
+	.pipe(conn.dest('/domains/bur-kut.com.ua/public_html'));
 
 });
 

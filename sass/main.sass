@@ -29,8 +29,6 @@ body textarea:required:valid
 	color: #666
 
 
-
-
 //Custom Styles Here
 
 /* Section_2 about us */
@@ -249,8 +247,11 @@ body textarea:required:valid
 		display: block
 		overflow: hidden
 		border: 1px solid $accent
+		
 		img
 			+mt(.5s)
+			max-width: 100%
+			
 		&:hover
 			.portfolio-item-content
 				opacity: 1
@@ -261,6 +262,7 @@ body textarea:required:valid
 			position: absolute
 			top: 0
 			left: 0
+			display: block
 			width: 100%
 			height: 100%
 			background-color: rgba(255,255,255,.85)
@@ -269,6 +271,7 @@ body textarea:required:valid
 			opacity: 0
 			+mt(.5s)
 			transform: scale(1.1)
+			
 			i
 				color: $accent
 				font-size: 33px
@@ -351,6 +354,7 @@ body textarea:required:valid
 .success
 	display: flex
 	background-color: $bg_durk
+	border: 3px solid $accent
 	position: absolute
 	z-index: 1
 	left: 0
