@@ -1,0 +1,5 @@
+# deploy folder
+dist/
+
+# gulp files
+node_modules/

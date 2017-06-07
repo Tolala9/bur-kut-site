@@ -93,7 +93,7 @@ gulp.task('build', ['removedist', 'imagemin', 'styles', 'scripts'], function() {
 
 gulp.task('deploy', function() {
 
-	var conn = ftp.create({
+	var conn = ftp.create({ 
 		host:      '194.28.174.228',
 		user:      'burkutco',
 		password:  'tolala333',
