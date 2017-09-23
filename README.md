@@ -3,7 +3,7 @@ My **first** landing page.
 It is a site for company that deals in horizontal directional drilling in Ukraine.
 This landing aimed to show the people  how this company work, what technology are used and how 
 easy to contact with personnel of the company. That's *a commercial work*. 
-You can [check out](http://bur-kut.com.ua/) 
+You can [check out](http://bur-kut.com.ua/) this site.
 
 ### Process:
 At first I have made prototype in wireframe.cc:
