@@ -5,6 +5,11 @@ This landing aimed to show the people  how this company work, what technology ar
 easy to contact with personnel of the company. That's *a commercial work*. 
 You can [check out](http://bur-kut.com.ua/) this site.
 
+- [x] All site are adaptive & responsive on all divices:
+	- Mobile S/M/L - 320px/375px/425px
+	- Tablet - 768px
+	- Laptop/laptop L/ - 1024px/1440px
+
 ### Process:
 At first I have made prototype in wireframe.cc:
 https://wireframe.cc/y0PyUb
